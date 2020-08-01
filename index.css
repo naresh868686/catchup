@@ -1,27 +1,20 @@
 li {
-
     list-style: none;
     display: block;
     padding: 0px 5px 0px 5px;
-  
 }
 
-
-ul{
-
+ul {
     float: none;
 }
 
-
 @media screen and (min-width: 360px){
 
-    li{
+    li {
         display: inline-block;
     }
 
     ul {
-        
-        float: right;
-        
+         float: right;
     }
 }
